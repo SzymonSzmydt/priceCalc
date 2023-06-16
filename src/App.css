@@ -1,0 +1,19 @@
+.main {
+    background-color: var(--content-color);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    width: 30rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.main h1 {
+    text-align: center;
+    margin: 2rem 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        width: 100%;
+    }
+}

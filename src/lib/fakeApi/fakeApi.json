@@ -1,0 +1,95 @@
+[
+  {
+    "year": 2023,
+    "services": [
+      {
+        "service": "Internet",
+        "price": 39
+      },
+      {
+        "service": "Telewizja",
+        "price": 49
+      },
+      {
+        "service": "Abonament telefoniczny",
+        "price": 29
+      },
+      {
+        "service": "Dekoder 4K",
+        "price": 29
+      }
+    ],
+    "package": [
+      {
+        "services": ["Internet", "Telewizja", "Dekoder 4K"],
+        "price": 79
+      },
+      {
+        "services": ["Internet", "Abonament telefoniczny"],
+        "price": 64
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "services": [
+      {
+        "service": "Internet",
+        "price": 49
+      },
+      {
+        "service": "Telewizja",
+        "price": 49
+      },
+      {
+        "service": "Abonament telefoniczny",
+        "price": 29
+      },
+      {
+        "service": "Dekoder 4K",
+        "price": 29
+      }
+    ],
+    "package": [
+      {
+        "services": ["Internet", "Telewizja", "Dekoder 4K"],
+        "price": 89
+      },
+      {
+        "services": ["Internet", "Abonament telefoniczny"],
+        "price": 64
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "services": [
+      {
+        "service": "Internet",
+        "price": 59
+      },
+      {
+        "service": "Telewizja",
+        "price": 59
+      },
+      {
+        "service": "Abonament telefoniczny",
+        "price": 29
+      },
+      {
+        "service": "Dekoder 4K",
+        "price": 29
+      }
+    ],
+    "package": [
+      {
+        "services": ["Internet", "Telewizja", "Dekoder 4K"],
+        "price": 99
+      },
+      {
+        "services": ["Internet", "Abonament telefoniczny"],
+        "price": 64
+      }
+    ]
+  }
+]

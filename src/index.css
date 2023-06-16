@@ -1,0 +1,50 @@
+* {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+:root {
+    --bgcolor: #EDF3FC;
+    --content-color: #FFFFFF;
+    --primary-color: #01048A;
+    --secondary-color: #4674FD;
+    --accent-color: #5fd8f7;
+
+    --radius: 0.5rem;
+    --shadow: 0px 0px 5px -2px rgba(25, 55, 109, 1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgcolor);
+    color: var(--primary-color);
+    height: 100svh;
+}
+
+input,
+select {
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 500;
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+input[type='checkbox'] {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.input:focus-visible,
+select:focus-visible {
+    outline: none;
+}
